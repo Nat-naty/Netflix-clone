@@ -1,0 +1,43 @@
+
+.footer ul {
+    padding: 30px
+}
+
+.footer ul li {
+    list-style: none;
+    opacity: .5
+}
+
+.footer   h2 a,.footer ul a {
+    text-decoration: none;
+    color: #fff
+}
+
+.footer   h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+    opacity: .5
+}
+
+.footer   h2:hover {
+    opacity: 1
+}
+
+
+button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    text-decoration: underline;
+}
+@media (min-width: 758px) {
+    .footer__links {
+        display:flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap
+    }
+}
